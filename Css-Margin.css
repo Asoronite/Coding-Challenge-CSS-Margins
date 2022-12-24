@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e8d6d0;
+}
+
+.cw-container {
+  text-align: center;
+  margin: 50px auto;
+  position: relative;
+  top: 150px;
+}
+.img-cw {
+  width: 185px;
+  height: 185px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+.text-container {
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  background-color: #DC6D5E;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.challenge{
+font-family: "Chivo Mono", monospace;
+font-size: 1.35rem;
+margin: 100px 25px;
+margin-bottom: 25px;
+padding: 10px;
+}
+
+.date-text{
+    color: yellow;
+}
+
+h3{
+    font-family: "Merriweather", serif;
+    padding: 10px;
+    font-size: 2.1rem;
+}
+.text-container h3{
+    opacity: 0.8;
+}
+
+
+
+.text-container {
+    margin: auto;
+}
+
+
+footer{
+    margin: 40px;
+    padding: 50px;
+    text-align: center;
+    
+}
+footer h3 a{
+    font-size: 1rem;
+    color: #A50077;
+}
+
+footer h3 a:hover{
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.196);
+    border-radius: 5px;
+    font-size: 1.05rem;
+}
+a{
+    font-family: "Chivo Mono", monospace;
+    text-decoration: none;
+}
